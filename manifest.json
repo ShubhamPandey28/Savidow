@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  
+  "name": "Memorise Window Session",
+  "description":"My first Extension",
+  "version":"2.0",
+  "author":"Saransh Jain",
+  "browser_action":{
+    "default_icon":"icon.png",
+    "default_popup":"popup.html",
+    "defeault_title":"Memorise current Window"
+  
+  },
+  "permissions":[
+    "activeTab",
+    "tabs",
+    "storage"
+  ]
+}

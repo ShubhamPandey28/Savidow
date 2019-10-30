@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Memorise window</title>
+        <link rel="stylesheet" href="popup.css">
+    </head>
+    <style type = "text/css">
+    
+    </style>
+    <body>
+        <h1>Memorise your current window session:</h1><br>
+        <label for="Session Name" id="tex"><b>To save your current tabs:</b></label>
+        <input type="text" name="sessionName" id="sessionName" placeholder="Enter name"><br><br>
+        
+        <button id = "memorise_button" type="button">Memorise Tabs</button><br><br>
+        <p id="tex"><b>Select session name to open:</b></p>
+        <div class = 'select-style'>
+            <select id = "listOfKeys"></select>
+        </div>
+        <button id = "retrieve_button" type="button" > Retrieve Session</button>
+
+    </body>
+    <script src = "popup.js"></script>
+</html>
